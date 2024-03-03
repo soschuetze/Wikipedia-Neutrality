@@ -59,14 +59,14 @@ $$
 For both total content and summaries of featured and non-featured Wikipedia pages, we can see that there is a difference in the amount of neutrality between the two groups. Although the t-test cannot directly say which group is more neutral than the other, the difference in means of -0.05 indicates that the featured pages are less neutral than the non-featured pages.
 
 Looking at figure 1, this becomes apparent since the neutral sentiment of the non-featured pages is much more clearly skewed towards 1.0 (this highest possible neutral sentiment score). 
-![Distributions of featured and non-featured sentiment scores](images/output_54_0.png.png)
+![Distributions of featured and non-featured sentiment scores](images/output_54_0.png)
 
 Figures 2 and 3, however, show that this trend is possibly associated with length of text since the non-featured pages are typically shorter than featured pages. 
-![](images/output_55_0.png.png)
-![](images/output_56_0.png.png)
+![](images/output_55_0.png)
+![](images/output_56_0.png)
 
 When considering non-featured posts chosen by length, however, the difference between the groups (-0.01) is no longer statistically significant, meaning that there is no evidence for a difference in the sentiment by group when length is more of a factor. Figure 4 displays these results and shows that the neutral sentiments are similarly varied around 0.810.
-![](images/output_58_0.png.png)
+![](images/output_58_0.png)
 
 ## Conclusion
 Findings from this study show that non-featured pages are potentially more neutral than featured posts or at the very least are as neutral as featured posts when length is a factor, suggesting that featured pages perhaps do not totally provide the neutrality promised by Wikipedia’s NPOV policy. More work would need to be done to determine if this is due to differences in length, age, or the sample of pages chosen. This work, however, supports prior research on sentiment analysis on online information platforms and offers insights into how individuals should regard the supposed unbiasedness of this type of content.
